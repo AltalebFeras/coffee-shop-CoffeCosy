@@ -176,3 +176,35 @@ section h3 {
     border-radius: 10px;
     margin-top: 20px;
 }
+.lienDeSite , .lienReseauSociaux{
+    text-decoration: none;
+}
+/* Footer */
+
+footer{
+    background-color: lightgray;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px 20px;
+    padding: 50px 10%
+}
+.bottom{
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 10%
+}
+.fa-brands {
+    margin-right: 10px;
+}
+.liensCGU{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
