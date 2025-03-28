@@ -1,176 +1,221 @@
 /* Reset some default styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
 }
 
 body {
-    background-color: #fff;
-    color: #333;
-    line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
 }
 
 /* Header Styles */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-    background: #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 a {
-    color: #333;
+  color: #333;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #a87b50;
+  color: #a87b50;
 }
 
 .btnReserver {
-    background: black;
-    color: white;
-    padding: 10px 15px;
+  background: black;
+  color: white;
+  padding: 10px 15px;
 }
 
 /* Hero Section */
 .acceuil {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 150px 10% 50px;
-    background: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 150px 10% 50px;
+  background: #fff;
 }
 
 .acceuil h1 {
-    font-size: 56px;
-    font-weight: bold;
+  font-size: 56px;
+  font-weight: bold;
 }
 
 .acceuil p {
-    font-size: 18px;
-    margin: 10px 0 20px;
+  font-size: 18px;
+  margin: 10px 0 20px;
 }
 
 .btnMenu {
-    background: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
 }
 
 .btnContact {
-    color: black;
-    background: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-    border: black 1px solid;
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border: black 1px solid;
 }
 
 .imgAcceuil {
-    width: 100%;
+  width: 100%;
 }
 
 /* max height 730px */
 .imgAcceuil img {
-    width: 100%;
-    height: 730px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 20px;
+  width: 100%;
+  height: 730px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 /* apropos section */
 
 .apropos,
 .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    gap: 50px;
-    padding: 100px 10%;
-    background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  gap: 50px;
+  padding: 100px 10%;
+  background: #fff;
 }
 
 .aproposText,
 .menuText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .apropos img,
 .menu img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .imgApropos,
 .imgMenu {
-    width: 100%;
+  width: 100%;
 }
 
 .aproposDetailles {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 50px;
-    margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+
 }
 
 section h3 {
-    font-size: 32px;
-    margin-bottom: 15px;
+  font-size: 32px;
+  margin-bottom: 15px;
 }
 
 /* Contact Section */
 .contact {
-    text-align: center;
-    padding: 50px 10%;
+  text-align: center;
+  padding: 50px 10%;
 }
 
 .contactText {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  gap: 50px;
 }
 
 .contact h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact iframe {
+
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.lienDeSite,
+.lienReseauSociaux {
+  text-decoration: none;
+}
+/* Footer */
+
+footer {
+  background-color: lightgray;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px 20px;
+  padding: 50px 10%;
+}
+.bottom {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 10%;
+}
+.fa-brands {
+  margin-right: 10px;
+}
+.liensCGU {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.emailInput {
+  padding: 10px;
+  border: 1px black solid;
+}
+
     width: 100%;
     height: 400px;
     border-radius: 10px;
@@ -286,3 +331,4 @@ section h3 {
         height: 300px;
     }
 }
+

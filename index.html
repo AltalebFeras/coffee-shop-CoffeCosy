@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CoffeCosy</title>
     <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+
     />
   </head>
   <body>
     <!-- header -->
     <header>
-      <p class="logo">CoffeCosy</p>
+      <p class="logo">Coffee Cozy</p>
       <nav>
         <ul>
           <li><a href="#acceuil">Accueil</a></li>
@@ -36,9 +35,11 @@
           détente. Profitez d'un moment de bonheur dans une ambiance chaleureuse
           et accueillante.
         </p>
+
         <div class="btnAcceuil">
+
           <button class="btnMenu" href="#">Voir le menu</button>
-          <button class="btnContact" href="#">Contact</button>
+          <button class="btnContact" href="#contact">Contact</button>
         </div>
         <div class="imgAcceuil">
           <img src="./imgs/acceuil.webp" alt="Image de la salle de la café" />
@@ -125,60 +126,85 @@
           ></iframe>
         </div>
       </section>
-      <footer>
+
+      <footer class="container">
+
+     
+
         <div>
           <p class="logo">Coffee Cozy</p>
 
-          <p>
+          <p style="max-width: 80%">
             Inscrivez-vous à notre lettre d'information pour être tenu au
             courant des nouveautés.
           </p>
-          <input type="email" placeholder="Entrez votre email" />
-          <button>S'abonner</button>
-          <p>
+          <div>
+            <input
+              class="emailInput"
+              type="email"
+              placeholder="Entrez votre email"
+            />
+            <button class="btnContact">S'abonner</button>
+          </div>
+          <p style="font-size: x-small; max-width: 68%">
             En vous inscrivant, vous acceptez notre politique de confidentialité
             et consentez à recevoir des mises à jour de notre société.
           </p>
         </div>
         <div>
           <h5>Liens importants</h5>
-          <!-- Lien vers haut de page -->
-          <a href="">Accueil</a>
-          <!-- Lien vers section À propos -->
-          <a href="">À propos</a>
-          <!-- Lien vers menu du café -->
-          <a href="">Menu</a>
+          <ul>
+            <li><a class="lienDeSite" href="">Accueil</a></li>
+            <li><a class="lienDeSite" href="">À propos</a></li>
+            <li><a class="lienDeSite" href="">Menu</a></li>
+          </ul>
         </div>
         <div>
           <h5>Contact</h5>
           <ul>
             <li>Email: contact@coffeecozy.com</li>
             <li>Téléphone: +33 1 23 45 67 89</li>
-            <li>Adresse: 456 Rue de Paris, Paris 75000, FR</li>
+            <li style="max-width: 80%">
+              Adresse: 456 Rue de Paris, Paris 75000, FR
+            </li>
           </ul>
         </div>
-        <div>
+        <div class="socialMedia">
           <h5>Nous suivre</h5>
           <!-- Icônes à ajouter -->
           <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>LinkedIn</li>
-            <li>YouTube</li>
+            <li>
+              <i class="fa-brands fa-facebook"></i
+              ><a class="lienReseauSociaux" href="">Facebook</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i
+              ><a href="" class="lienReseauSociaux">Instagram</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-twitter"></i
+              ><a href="" class="lienReseauSociaux">Twitter</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-linkedin"></i
+              ><a href="" class="lienReseauSociaux">LinkedIn</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-youtube"></i
+              ><a href="" class="lienReseauSociaux">YouTube</a>
+            </li>
           </ul>
         </div>
-
-        <hr />
-        <div>
-          <p>© 2025 CoffeCosy. All rights reserved.</p>
-          <div>
-            <a href="">Politique de Confidentialité</a>
-            <a href="">Conditions d'Utilisation</a>
-            <a href="">Paramètres des Cookies</a>
-          </div>
-        </div>
       </footer>
+      <hr />
+      <div class="bottom">
+        <p>© 2025 Coffee Cozy. All rights reserved.</p>
+        <div class="liensCGU">
+          <a href="">Politique de Confidentialité</a>
+          <a href="">Conditions d'Utilisation</a>
+          <a href="">Paramètres des Cookies</a>
+        </div>
+      </div>
     </main>
   </body>
 </html>
