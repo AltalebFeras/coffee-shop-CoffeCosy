@@ -139,6 +139,13 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.aproposDetailles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
 
 section h3 {
     font-size: 32px;
