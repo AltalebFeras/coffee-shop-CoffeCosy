@@ -7,60 +7,60 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <!-- header -->
     <header>
       <p class="logo">CoffeCosy</p>
       <nav>
         <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">À Propos</a></li>
-          <li><a href="#">Menu</a></li>
+          <li><a href="#acceuil">Accueil</a></li>
+          <li><a href="#apropos">À Propos</a></li>
+          <li><a href="#menu">Menu</a></li>
           <li><a class="btnReserver" href="#">Réserver</a></li>
         </ul>
       </nav>
     </header>
     <!-- main -->
     <main>
-        
       <!-- section acceuil -->
-      <section class="acceuil">
+      <section id="acceuil" class="acceuil">
         <h1>Savourez chaque gorgée, vivez l'instant.</h1>
         <p>
           Chez Coffee Cozy, chaque tasse de café est une invitation à la
           détente. Profitez d'un moment de bonheur dans une ambiance chaleureuse
           et accueillante.
         </p>
-        <div>
-          <button class="btnMenu" href="#">Découvrir nos cafés</button>
-          <button class="btnContact" href="#">Découvrir nos cafés</button>
+        <div class>
+          <button class="btnMenu" href="#">Voir le menu</button>
+          <button class="btnContact" href="#">Contact</button>
         </div>
-        <div>
-          <img src="./salle.jpg" alt="Image de la sall de la café" />
+        <div class="imgAcceuil">
+          <img src="./imgs/acceuil.webp" alt="Image de la salle de la café" />
         </div>
       </section>
       <!-- section à propos -->
-      <section class="apropos">
-        <div>
-          <h2>
+      <section id="apropos" class="apropos">
+        <div class="aproposText">
+          <h3>
             Découvrez l'histoire chaleureuse de Coffee Cozy et son ambiance
             conviviale.
-          </h2>
+          </h3>
           <p>
             Coffee Cozy est plus qu'un simple café; c'est un lieu de rencontre
             où chaque tasse de café raconte une histoire. Plongez dans une
             atmosphère accueillante, idéale pour se détendre ou travailler.
           </p>
         </div>
-        <div>
-          <img src="table.jpg" alt="image d'une table" />
+        <div class="imgApropos">
+          <img src="./imgs/apropos.webp" alt="image d'une table" />
         </div>
       </section>
       <!-- section menu -->
-      <section class="menu">
-        <div>
-          <h2>
+      <section id="menu" class="menu">
+        <div class="menuText">
+          <h3>
             Découvrez notre sélection de boissons et pâtisseries faites maison.
-          </h2>
+          </h3>
           <p>
             Chez Coffee Cozy, chaque gorgée est une invitation à la détente. Nos
             créations sont préparées avec soin pour ravir vos papilles.
@@ -83,10 +83,97 @@
             </div>
           </div>
         </div>
-        <div>
-          <img src="./boissons.jpg" alt="Image de boissons" />
-        
+        <div class="imgMenu">
+          <img src="./imgs/menu.webp" alt="Image de boissons" />
+        </div>
       </section>
+
+      <!-- Section contact -->
+      <section class="contact" id="contact">
+        <div class="contactText">
+          <div>
+            <h3>Nous Contacter</h3>
+            <p>
+              Nous serions ravis de recevoir vos messages et vos questions.
+              Écrivez-nous ci-dessous.
+            </p>
+          </div>
+          <div>
+            <h5>Email</h5>
+            <a href="">contact@coffeecozy.com</a>
+            <h5>Téléphone</h5>
+            <a href="">+33 1 23 45 67 89</a>
+            <h5>Adresse</h5>
+            <p>456 Rue de Paris, Paris 75000, FR</p>
+          </div>
+        </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11252.465467936807!2d5.7376768!3d45.1644934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af5b1ed736373%3A0x79b3bb79cc06cb7!2sRestaurant%20l&#39;Intuition!5e0!3m2!1sfr!2sfr!4v1743088965502!5m2!1sfr!2sfr"
+            width="80%"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <footer>
+        <div>
+          <p class="logo">Coffee Cozy</p>
+
+          <p>
+            Inscrivez-vous à notre lettre d'information pour être tenu au
+            courant des nouveautés.
+          </p>
+          <input type="email" placeholder="Entrez votre email" />
+          <button>S'abonner</button>
+          <p>
+            En vous inscrivant, vous acceptez notre politique de confidentialité
+            et consentez à recevoir des mises à jour de notre société.
+          </p>
+        </div>
+        <div>
+          <h5>Liens importants</h5>
+          <!-- Lien vers haut de page -->
+          <a href="">Accueil</a>
+          <!-- Lien vers section À propos -->
+          <a href="">À propos</a>
+          <!-- Lien vers menu du café -->
+          <a href="">Menu</a>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <ul>
+            <li>Email: contact@coffeecozy.com</li>
+            <li>Téléphone: +33 1 23 45 67 89</li>
+            <li>Adresse: 456 Rue de Paris, Paris 75000, FR</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Nous suivre</h5>
+          <!-- Icônes à ajouter -->
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>LinkedIn</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+
+        <hr />
+        <div>
+          <p>© 2025 CoffeCosy. All rights reserved.</p>
+          <div>
+            <a href="">Politique de Confidentialité</a>
+            <a href="">Conditions d'Utilisation</a>
+            <a href="">Paramètres des Cookies</a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
-  </html>
+</html>
