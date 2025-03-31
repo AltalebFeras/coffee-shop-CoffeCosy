@@ -250,14 +250,8 @@ ul {
   .apropos,
   .menu {
     flex-direction: column;
-    text-align: center;
     gap: 30px;
     padding: 80px 5%;
-  }
-
-  .aproposText,
-  .menuText {
-    text-align: center;
   }
 
   .aproposDetailles {
@@ -267,11 +261,20 @@ ul {
 
   .contactText {
     flex-direction: column;
-    text-align: center;
   }
 
   section h3 {
     font-size: 28px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -342,5 +345,15 @@ ul {
 
   .contact iframe {
     height: 300px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
   }
 }
