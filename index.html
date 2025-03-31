@@ -38,8 +38,15 @@
         </p>
 
         <div class="btnAccueil">
-          <button class="btnMenu" onclick="window.location.href = 'menu'">Voir le menu</button>
-          <button class="btnContact" onclick="window.location.href = '#contact'">Contact</button>
+          <button class="btnMenu" onclick="window.location.href = 'menu'">
+            Voir le menu
+          </button>
+          <button
+            class="btnContact"
+            onclick="window.location.href = '#contact'"
+          >
+            Contact
+          </button>
         </div>
         <div class="imgAccueil">
           <img src="./imgs/accueil.webp" alt="Image de la salle de café" />
@@ -107,9 +114,13 @@
           </div>
           <div>
             <h5>Email</h5>
-            <a class="lienContact" href="mailto:contact@coffeecozy.com">contact@coffeecozy.com</a>
+            <a class="lienContact" href="mailto:contact@coffeecozy.com"
+              >contact@coffeecozy.com</a
+            >
             <h5>Téléphone</h5>
-            <a class="lienContact" href="tel:+330123456789">+33 1 23 45 67 89</a>
+            <a class="lienContact" href="tel:+330123456789"
+              >+33 1 23 45 67 89</a
+            >
             <h5>Adresse</h5>
             <p>456 Rue de Paris, Paris 75000, FR</p>
           </div>
@@ -136,12 +147,15 @@
             courant des nouveautés.
           </p>
           <div>
-            <input
-              class="emailInput"
-              type="email"
-              placeholder="Entrez votre email"
-            />
-            <button class="btnContact">S'abonner</button>
+            <form action="#">
+              <input
+                class="emailInput"
+                type="email"
+                placeholder="Entrez votre email"
+                size="48"
+              />
+              <input class="btnContact" type="submit" value="S'abonner" />
+            </form>
           </div>
           <p style="font-size: x-small; max-width: 68%">
             En vous inscrivant, vous acceptez notre politique de confidentialité
@@ -172,7 +186,9 @@
           <ul>
             <li>
               <i class="fa-brands fa-facebook"></i
-              ><a href="https://facebook.com" class="lienReseauxSociaux">Facebook</a>
+              ><a href="https://facebook.com" class="lienReseauxSociaux"
+                >Facebook</a
+              >
             </li>
             <li>
               <i class="fa-brands fa-instagram"></i
