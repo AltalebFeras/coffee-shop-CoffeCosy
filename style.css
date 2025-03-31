@@ -316,9 +316,9 @@ ul {
 
   #menuBurgerCheckbox:checked~.navbarMobile {
     display: flex;
-    
+
   }
-  
+
   .menuBurgerIcon {
     font-size: 30px;
     font-weight: 1000;
