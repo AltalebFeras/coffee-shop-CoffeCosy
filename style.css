@@ -266,13 +266,13 @@ ul {
   section h3 {
     font-size: 28px;
   }
-
+  
   .container {
     display: flex;
     flex-direction: column;
   }
 
-  .bottom {
+  .bottom{
     display: flex;
     flex-direction: column;
   }
@@ -352,7 +352,7 @@ ul {
     flex-direction: column;
   }
 
-  .bottom {
+  .bottom{
     display: flex;
     flex-direction: column;
   }
