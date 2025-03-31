@@ -83,6 +83,11 @@ nav ul li a:hover {
   cursor: pointer;
   margin: -5px;
   margin-bottom: 40px;
+  transition: color 0.3s;
+}
+
+.btnMenu:hover{
+  color: #a87b50;
 }
 
 .btnContact {
@@ -93,6 +98,11 @@ nav ul li a:hover {
   cursor: pointer;
   margin: 10px;
   border: black 1px solid;
+  transition: color 0.3s;
+}
+
+.btnContact:hover{
+  color: #a87b50;
 }
 
 .imgAccueil {
@@ -167,6 +177,14 @@ section h3 {
   gap: 50px;
 }
 
+.lienContact{
+  transition: color 0.3s;
+}
+
+.lienContact:hover{
+  color: #a87b50;
+}
+
 .contact h2 {
   margin-bottom: 20px;
 }
@@ -178,9 +196,16 @@ section h3 {
   margin-top: 20px;
 }
 .lienDeSite,
-.lienReseauSociaux {
+.lienReseauxSociaux {
   text-decoration: none;
+  transition: color 0.3s;
 }
+
+.lienDeSite:hover,
+.lienReseauxSociaux:hover{
+  color: #a87b50;
+}
+
 /* Footer */
 
 ul {
