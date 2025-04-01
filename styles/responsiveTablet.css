@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+    .accueil h1 {
+      font-size: 42px;
+    }
+  
+    .accueil p {
+      font-size: 16px;
+    }
+  
+    .apropos,
+    .menu {
+      flex-direction: column;
+      gap: 30px;
+      padding: 80px 5%;
+    }
+  
+    .aproposDetailles {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .contactText {
+      flex-direction: column;
+    }
+  
+    section h3 {
+      font-size: 28px;
+    }
+    .emailInput {
+      margin-top: 10px;
+    }
+    .btnAbonne {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .container > div > h5 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .bottom {
+      display: flex;
+      flex-direction: column;
+    }
+    .liensCGU {
+      display: flex;
+      flex-direction: column;
+    }
+    .copy {
+      display: none;
+    }
+    .copyResp {
+      display: flex;
+      margin-top: 20px;
+    }
+  }
+  

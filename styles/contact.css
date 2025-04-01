@@ -1,0 +1,32 @@
+.contact {
+    text-align: center;
+    padding: 50px 10%;
+  }
+  
+  .contactText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 50px;
+  }
+  
+  .lienContact {
+    transition: color 0.3s;
+  }
+  
+  .lienContact:hover {
+    color: #a87b50;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
