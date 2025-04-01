@@ -276,6 +276,10 @@ ul {
     display: flex;
     flex-direction: column;
   }
+  .liensCGU{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Mobile View (480px and below) */
@@ -351,8 +355,7 @@ ul {
     display: flex;
     flex-direction: column;
   }
-
-  .bottom{
+  .liensCGU{
     display: flex;
     flex-direction: column;
   }
