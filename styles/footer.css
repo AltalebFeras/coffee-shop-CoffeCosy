@@ -1,0 +1,59 @@
+ul {
+    list-style-type: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 0px 20px;
+    padding: 50px 10%;
+  }
+  .btnAbonne {
+    color: black;
+    background: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border: black 1px solid;
+    transition: color 0.3s;
+  }
+  
+  .btnAbonne:hover {
+    color: #a87b50;
+  }
+  .bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 10%;
+  }
+  .fa-brands {
+    margin-right: 10px;
+  }
+  .CGUtext {
+    display: flex;
+    justify-content: space-between;
+  }
+  .liensCGU{
+    transition: color 0.3s;
+  }
+  .liensCGU:hover {
+    color: #a87b50;
+  }
+  .emailInput {
+    padding: 10px;
+    border: 1px black solid;
+    width: 70%;
+  }
+  .lienDeSite,
+  .lienReseauxSociaux {
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .lienDeSite:hover,
+  .lienReseauxSociaux:hover {
+    color: #a87b50;
+  }
+  .copyResp {
+    display: none;
+  }
+  

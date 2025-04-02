@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CoffeCosy</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -46,8 +46,8 @@
 
     <!-- main -->
     <main>
-      <!-- section acceuil -->
-      <section id="acceuil" class="acceuil">
+      <!-- section accueil -->
+      <section id="accueil" class="accueil">
         <h1>Savourez chaque gorgée, vivez l'instant.</h1>
         <p>
           Chez Coffee Cozy, chaque tasse de café est une invitation à la
@@ -59,8 +59,8 @@
           <a class="btnMenu">Voir le menu</a>
           <a  class="btnContact" href="#menu">Contact</a>
         </div>
-        <div class="imgAcceuil">
-          <img src="./imgs/acceuil.webp" alt="Image de la salle de la café" />
+        <div class="imgAccueil">
+          <img src="./imgs/accueil.webp" alt="Image de la salle de café" />
         </div>
       </section>
       <!-- section à propos -->
@@ -125,17 +125,17 @@
           </div>
           <div>
             <h4>Email</h4>
-            <a href="">contact@coffeecozy.com</a>
+            <a href="mailto:contact@coffeecozy.com">contact@coffeecozy.com</a>
             <h4>Téléphone</h4>
-            <a href="">+33 1 23 45 67 89</a>
+            <a href="tel:+330123456789">+33 1 23 45 67 89</a>
             <h4>Adresse</h4>
             <p>456 Rue de Paris, Paris 75000, FR</p>
           </div>
         </div>
         <div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11252.465467936807!2d5.7376768!3d45.1644934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af5b1ed736373%3A0x79b3bb79cc06cb7!2sRestaurant%20l&#39;Intuition!5e0!3m2!1sfr!2sfr!4v1743088965502!5m2!1sfr!2sfr"
-            width="80%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.8305664680584!2d2.3003608869416237!3d48.899566123916195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f0afc098f61%3A0x2a6c555488ff7422!2sRue%20de%20Paris%2C%2092110%20Clichy!5e0!3m2!1sfr!2sfr!4v1743511611025!5m2!1sfr!2sfr"
+            width="800"
             height="600"
             style="border: 0"
             allowfullscreen=""
@@ -144,7 +144,7 @@
           ></iframe>
         </div>
       </section>
-
+      <!-- Footer -->
       <footer class="container">
         <div>
           <p class="logo">Coffee Cozy</p>
@@ -153,12 +153,14 @@
             courant des nouveautés.
           </p>
           <div>
-            <input
-              class="emailInput"
-              type="email"
-              placeholder="Entrez votre email"
-            />
-            <button class="btnContact">S'abonner</button>
+            <form action="#">
+              <input
+                class="emailInput"
+                type="email"
+                placeholder="Entrez votre email"
+              />
+              <input class="btnAbonne" type="submit" value="S'abonner" />
+            </form>
           </div>
           <p style="font-size: x-small; max-width: 68%">
             En vous inscrivant, vous acceptez notre politique de confidentialité
@@ -168,9 +170,9 @@
         <div>
           <h5>Liens importants</h5>
           <ul>
-            <li><a class="lienDeSite" href="">Accueil</a></li>
-            <li><a class="lienDeSite" href="">À propos</a></li>
-            <li><a class="lienDeSite" href="">Menu</a></li>
+            <li><a class="lienDeSite" href="#">Accueil</a></li>
+            <li><a class="lienDeSite" href="#apropos">À propos</a></li>
+            <li><a class="lienDeSite" href="#menu">Menu</a></li>
           </ul>
         </div>
         <div>
@@ -185,39 +187,49 @@
         </div>
         <div class="socialMedia">
           <h5>Nous suivre</h5>
-          <!-- Icônes à ajouter -->
           <ul>
             <li>
               <i class="fa-brands fa-facebook"></i
-              ><a class="lienReseauSociaux" href="">Facebook</a>
+              ><a href="https://facebook.com" class="lienReseauxSociaux"
+                >Facebook</a
+              >
             </li>
             <li>
               <i class="fa-brands fa-instagram"></i
-              ><a href="" class="lienReseauSociaux">Instagram</a>
+              ><a href="https://instagram.com" class="lienReseauxSociaux"
+                >Instagram</a
+              >
             </li>
             <li>
               <i class="fa-brands fa-twitter"></i
-              ><a href="" class="lienReseauSociaux">Twitter</a>
+              ><a href="https://twitter.com" class="lienReseauxSociaux"
+                >Twitter</a
+              >
             </li>
             <li>
               <i class="fa-brands fa-linkedin"></i
-              ><a href="" class="lienReseauSociaux">LinkedIn</a>
+              ><a href="https://linkedin.com" class="lienReseauxSociaux"
+                >LinkedIn</a
+              >
             </li>
             <li>
               <i class="fa-brands fa-youtube"></i
-              ><a href="" class="lienReseauSociaux">YouTube</a>
+              ><a href="https://youtube.com" class="lienReseauxSociaux"
+                >YouTube</a
+              >
             </li>
           </ul>
         </div>
       </footer>
       <hr />
       <div class="bottom">
-        <p>© 2025 Coffee Cozy. All rights reserved.</p>
-        <div class="liensCGU">
-          <a href="">Politique de Confidentialité</a>
-          <a href="">Conditions d'Utilisation</a>
-          <a href="">Paramètres des Cookies</a>
+        <p class="copy">© 2025 Coffee Cozy. All rights reserved.</p>
+        <div class="CGUtext">
+          <a class="liensCGU" href="confid">Politique de Confidentialité</a>
+          <a class="liensCGU" href="cgu">Conditions d'Utilisation</a>
+          <a class="liensCGU" href="cookie">Paramètres des Cookies</a>
         </div>
+        <p class="copyResp">© 2025 Coffee Cozy. All rights reserved.</p>
       </div>
     </main>
   </body>
