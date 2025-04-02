@@ -41,6 +41,7 @@ ul {
   .emailInput {
     padding: 10px;
     border: 1px black solid;
+    width: 70%;
   }
   .lienDeSite,
   .lienReseauxSociaux {
