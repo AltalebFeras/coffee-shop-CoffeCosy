@@ -1,6 +1,6 @@
 # Coffee Cozy
 
-Coffee Cozy est un site web présentant un caféShop  créé par Feras et.
+Coffee Cozy est un site web présentant un caféShop  créé par Feras et Maxime
 
 ## 📌 Fonctionnalités
 
