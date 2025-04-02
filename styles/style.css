@@ -1,8 +1,4 @@
-@import url("./base.css");
-@import url("./header.css");
-@import url("./accueil.css");
-@import url("./apropos.css");
-@import url("./contact.css");
+@import url("./main.css");
 @import url("./footer.css");
 @import url("./responsiveTablet.css");
 @import url("./responsiveMobile.css");
