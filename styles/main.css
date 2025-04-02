@@ -1,116 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: roboto, sans-serif;
-  }
-  
-  body {
-    background-color: #fff;
-    color: #333;
-    line-height: 1.6;
-  }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-    background: #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  a {
-    color: #333;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
-  }
-  
-  nav ul li a:hover {
-    color: #a87b50;
-  }
-  
-  .btnReserver {
-    background: black;
-    color: white;
-    padding: 10px 15px;
-  }
-  .accueil {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 150px 10% 50px;
-    background: #fff;
-  }
-  
-  .accueil h1 {
-    font-size: 56px;
-    font-weight: bold;
-  }
-  
-  .accueil p {
-    font-size: 18px;
-    margin: 10px 0 20px;
-  }
-  
-  .btnMenu {
-    background: black;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    transition: color 0.3s;
-  }
-  
-  .btnMenu:hover {
-    color: #a87b50;
-  }
-  
-  .btnContact {
-    color: black;
-    background: white;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-    border: black 1px solid;
-    transition: color 0.3s;
-  }
-  
-  .btnContact:hover {
-    color: #a87b50;
-  }
-  
-  .imgAccueil {
-    width: 100%;
-  }
-  
-  /* max height 730px */
-  .imgAccueil img {
-    width: 100%;
-    height: 730px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
-  .apropos,
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+a {
+  color: #333;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #a87b50;
+}
+
+.btnReserver {
+  background: black;
+  color: white;
+  padding: 10px 15px;
+}
+
+.accueil {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 150px 10% 50px;
+  background: #fff;
+}
+
+.accueil h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.accueil p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.btnMenu {
+  background: black;
+  text-decoration: none;
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btnContact {
+  color: black;
+  text-decoration: none;
+  background: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border: black 1px solid;
+}
+
+.imgaccueil {
+  width: 100%;
+}
+
+.imgaccueil img {
+  width: 100%;
+  height: 730px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+.apropos,
 .menu {
   display: flex;
   flex-direction: row;
@@ -141,17 +138,24 @@
 }
 
 .aproposDetailles {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 50px;
   margin-top: 50px;
+
 }
 
 section h3 {
   font-size: 32px;
   margin-bottom: 15px;
 }
+
+section h4 {
+  font-weight: bolder;
+}
+
 .contact {
   text-align: center;
   padding: 50px 10%;
@@ -165,16 +169,58 @@ section h3 {
   gap: 50px;
 }
 
-.lienContact {
-  transition: color 0.3s;
-}
-
-.lienContact:hover {
-  color: #a87b50;
-}
-
 .contact h2 {
   margin-bottom: 20px;
+}
+
+.contact h4 {
+  margin: 5px 0px;
+  font-weight: bolder;
+}
+
+.contact iframe {
+
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.lienDeSite,
+.lienReseauSociaux {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px 20px;
+  padding: 50px 10%;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 10%;
+}
+
+.fa-brands {
+  margin-right: 10px;
+}
+
+.liensCGU {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.emailInput {
+  padding: 10px;
+  border: 1px black solid;
 }
 
 .contact iframe {
@@ -182,4 +228,176 @@ section h3 {
   height: 400px;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+.navbarMobile,
+.menuBurgerIcon,
+.menuBurgerCheckbox {
+  display: none;
+}
+
+/* Responsive Design */
+
+/* screen View (991px and below) */
+@media screen and (max-width: 991) {
+  .accueil h1 {
+    font-size: 48px;
+  }
+
+  .accueil p {
+    font-size: 18px;
+  }
+
+  .apropos,
+  .menu {
+    flex-direction: row;
+    text-align: center;
+    gap: 50px;
+    padding: 100px 10%;
+  }
+
+  .aproposText,
+  .menuText {
+    text-align: left;
+  }
+
+  .aproposDetailles {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  section h3 {
+    font-size: 32px;
+  }
+
+}
+
+/* screen View (768px and below) */
+@media screen and (max-width: 768px) {
+  .accueil h1 {
+    font-size: 42px;
+  }
+
+  .accueil p {
+    font-size: 16px;
+  }
+
+  .apropos,
+  .menu {
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    padding: 80px 5%;
+  }
+
+  .aproposDetailles {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contactText {
+    flex-direction: column;
+  }
+
+  section h3 {
+    font-size: 28px;
+  }
+}
+
+/* screen View (600px and below) */
+@media screen and (max-width: 600px) {
+  .accueil h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btnaccueil {
+    display: flex;
+  }
+
+  .logo {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  header {
+    position: static;
+  }
+
+  .accueil {
+    padding: 20px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  /* add some animation when displaying these */
+  .navbarMobile,
+  .menuBurgerIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .navbarMobile {
+    display: none;
+  }
+
+  #menuBurgerCheckbox:checked~.navbarMobile {
+    display: flex;
+    width: 150px;
+
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+  }
+
+  .menuBurgerIcon {
+    font-size: 30px;
+    font-weight: 1000;
+    cursor: pointer;
+  }
+
+  .imgaccueil img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .apropos img,
+  .menu img {
+    width: 100%;
+    border-radius: 10px;
+    height: 330px;
+    object-fit: cover;
+  }
+
+  .btnMenu,
+  .btnContact {
+    width: 100%;
+  }
+
+  .apropos,
+  .menu {
+    padding: 60px 5%;
+  }
+
+  section h3 {
+    font-size: 24px;
+  }
+
+  .contact iframe {
+    height: 300px;
+  }
 }
